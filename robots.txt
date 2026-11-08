@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://milshansenura-afk.github.io/Tool-nest/sitemap.xml
