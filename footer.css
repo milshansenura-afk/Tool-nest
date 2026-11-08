@@ -1,0 +1,16 @@
+/* ToolNest footer add-on. Scoped to avoid changing existing tools and theme styles. */
+.tn-footer{background:#101827;color:#e5eaf5;border-top:1px solid #26344d;margin-top:64px;font-family:inherit}
+.tn-footer *{box-sizing:border-box}
+.tn-footer-inner{max-width:1200px;margin:auto;padding:52px 24px 22px}
+.tn-footer-grid{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(130px,1fr));gap:34px}
+.tn-footer-brand{font-size:25px;font-weight:800;letter-spacing:-.5px;color:#fff!important;text-decoration:none}
+.tn-footer-brand span{color:#7aa9ff}
+.tn-footer-about p{font-size:14px;line-height:1.8;color:#aebcd2;max-width:330px;margin:14px 0}
+.tn-footer-pill{display:inline-block;border:1px solid #324460;border-radius:999px;padding:8px 12px;color:#b7c8e2;font-size:12px}
+.tn-footer-column{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.tn-footer-column h2{font-size:14px;font-weight:700;margin:4px 0 8px;color:#fff}
+.tn-footer-column a{font-size:13px;line-height:1.5;color:#b7c8e2;text-decoration:none;overflow-wrap:anywhere;transition:color .2s ease}
+.tn-footer-column a:hover,.tn-footer-column a:focus-visible{color:#83b5ff;text-decoration:underline}
+.tn-footer-bottom{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:42px;padding-top:22px;border-top:1px solid #2b3950;font-size:12px;color:#91a2bc}
+@media(max-width:850px){.tn-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}}
+@media(max-width:520px){.tn-footer-inner{padding:38px 20px 22px}.tn-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 18px}.tn-footer-about{grid-column:1/-1}.tn-footer-bottom{margin-top:30px;flex-direction:column}}
